@@ -35,7 +35,7 @@ func writeBalanceToFile(balance float64) {
 func main() {
 
 	var accountBalance, err = getBalancerFromFile()
-
+	//fmt.Println(err)
 	if err != nil {
 		fmt.Println("ERROR")
 		fmt.Println("error message:", err)
